@@ -1,0 +1,89 @@
+$bgcolor: white;
+body {
+  background: $bgcolor;
+  font-family: 'Lato';
+}
+.home__input__title--login {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 300px;
+  margin-left: 890px;
+}
+.home__input__title--password {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 890px;
+  margin-top: 30px;
+}
+.home__input--login {
+  border-style: solid;
+  border-radius: 7px;
+  border-color: gray;
+  outline: none !important;
+  width: 230px;
+  height: 35px;
+  margin-left: 150px;
+  margin-top: 370px;
+  text-align: center;
+}
+
+.home__input--password {
+  border-style: solid;
+  border-radius: 7px;
+  border-color: gray;
+  outline: none !important;
+  width: 230px;
+  height: 35px;
+  margin-left: 150px;
+  margin-top: 25px;
+  text-align: center;
+}
+.home__input__button--submit {
+background: #caf4fe;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: gray;
+  color: gray;
+  width: 230px;
+  height: 35px;
+  font-size: 18px;
+  margin-left: 150px;
+  outline: none !important;
+}
+.register__title {
+  text-decoration: none !important;
+  outline: none !important;
+  margin-left: 120px;
+  margin-top: 20px;
+  color: white;
+}
+.register__title:hover {
+  color: white;
+}
+.home__login--error {
+  color: black;
+  margin-left: 814px;
+  position: absolute;
+  top:345px;
+}
+.bgimg {
+  width: 100%;
+  z-index: -1 !important;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+}
+.login__container__home {
+  width: 550px;
+  height: 300px;
+  background: white;
+  position: absolute;
+  top: 300px;
+  z-index: -1;
+  border-radius: 20px;
+  border-color: black;
+  border-style: solid;
+}
